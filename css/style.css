@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.header_part {
+    background: #fff;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    background: #1a54e7;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.logo:before {
+    position: absolute;
+    content: "";
+    left: -6000px;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background: #1a54e7;
+
+}
+
+.logo a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Navbar {
+    float: right;
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+.Navbar ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: block;
+}
+
+.Navbar ul li {
+    list-style-type: none;
+    float: left;
+
+}
+
+.Navbar ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 25px 15px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color: #1a54e7;
+    font-weight: 400;
+
+}
+
+.Navbar ul li.active_menu a {
+    position: relative;
+
+}
+
+.Navbar ul li.active_menu a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #1a54e7;
+    left: 0;
+    bottom: 0;
+}
+
+.banner {
+    text-align: center;
+    background: url(../images/bannerimg.png) no-repeat;
+    background-size: cover;
+
+}
+
+.banner-in {
+    padding: 145px 230px;
+    position: relative;
+   
+
+
+}
+
+.banner-in h2 {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cat a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+.date_default {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.date_default a {
+    text-decoration: none;
+
+}
+
+.date_default a:first-child {
+    padding-right: 3px;
+    border-right: 1px solid white;
+    color: white;
+}
+
+.date_default a:last-child {
+    color: blue;
+
+}
+
+.third_section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.single_row {
+    background: url(../images/bannerbottom.png) no-repeat;
+    background-size: cover;
+    padding: 119px 274px;
+    text-align: center;
+
+}
+
+.single_row h2 {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 48px;
+
+}
+
+.single_row p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+
+.single_row .cat a {
+    background: #d90445;
+}
+
+.second_section {
+    text-align: left;
+    background: #f6f6f6;
+    padding: 33px 0 40px 0;
+}
+
+.col50 {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+    float: left;
+}
+
+.cat_img {
+    position: relative;
+    padding-left: 0;
+}
+
+.Trips a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: #d90445;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.Tech a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.Nature a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: #58b600;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.Fashion a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: #8200b2;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.forth a {
+    color: #ffffff;
+    padding: 8px 15px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.date_default_common a {
+    text-decoration: none;
+}
+
+.col50 .date_default_common a:first-child {
+    padding-right: 3px;
+    border-right: 1px solid #b9b9b9;
+    color: #b9b9b9;
+}
+
+.col50 h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: black;
+
+}
+
+.col50 .date_default_common {
+    left: 0;
+
+}
+
+.Fourth_section {
+    margin-bottom: 30px;
+}
+
+.Fourth_section .col50 {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+    float: left;
+    margin-top: 15px;
+}
+
+.Fourth_section h4 {
+    font-size: 18px;
+}
+
+.footer_top {
+    background: url(../images/newsletter.png
+) no-repeat;
+    background-size: cover;
+    padding:47px 0;
+    text-align: center;
+    display: block;
+    
+}
+
+.newsletter{
+   
+}
+.newsletter h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.newsletter p {
+    color: #8baeff;
+    padding: 15px;
+}
+
+.emailbox {
+    position: relative;
+    display: inline-block;
+
+}
+
+.email_area [type="text"] {
+    display: inline-block;
+    width: 337px;
+    height: 48px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 33px;
+    background: #2c6cff;
+    border: 1px solid #92a2c79c;
+    color: white;
+}
+
+.button_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button_box input {
+    height: 48px;
+    padding: 0 30px;
+    border-radius: 30px;
+    background: white;
+    color: blue;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+
+
+.footerbg {
+    text-align: center;
+    background: white;
+    padding: 100px 0;
+
+}
+
+.footerpart p {
+    padding: 10px 212px;
+    font-size: 18px;
+    color: #a7acbc;
+}
